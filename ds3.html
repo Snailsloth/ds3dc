@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DS3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/garlic.js"></script>
+</head>
+
+
+
+
+
+<body>
+	
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+			<div class="swiper-slide">
+			<div class="ds-wrapper">
+				<h1>YOU DIED</h1>
+				<p class="death-numbers"><b id="result"></b> times</p>
+				<div class="buttons_nest">
+					<input class="reset_stats" type="button" onclick="clickDECounter()">
+					<input class="died" type="button" onclick="clickCounter()">
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<div class="ds-wrapper boss-page">
+				<h1>Boss tries</h1>
+
+				<form data-persist="garlic" method="POST">
+					<ul class="boss-list">
+						<li>
+							<p>Iudex Gundyr:</p><input type="number" pattern="[0-9]" novalidate name="Iudex_Gundyr"><span>tries</span>
+						</li>
+						<li>
+							<p>Vordt:</p><input type="number" pattern="[0-9]" novalidate name="Vordt"><span>tries</span>
+						</li>
+						<li>
+							<p>Rotten Greatwood:</p><input type="number" pattern="[0-9]" novalidate name="Rotten_Greatwood"><span>tries</span>
+						</li>
+						<li>
+							<p>Crystal Sage:</p><input type="number" pattern="[0-9]" novalidate name="Crystal_Sage"><span>tries</span>
+						</li>
+						<li>
+							<p>Abyss Watchers:</p><input type="number" pattern="[0-9]" novalidate name="Abyss_Watchers"><span>tries</span>
+						</li>
+						<li>
+							<p>Deacons of the Deep:</p><input type="number" pattern="[0-9]" novalidate name="Deacons"><span>tries</span>
+						</li>
+						<li>
+							<p>High Lord Wolnir:</p><input type="number" pattern="[0-9]" novalidate name="Wolnir"><span>tries</span>
+						</li>
+						<li>
+							<p>Old Demon King:</p><input type="number" pattern="[0-9]" novalidate name="Old_Demon_King"><span>tries</span>
+						</li>
+						<li>
+							<p>Pontiff Sulyvahn:</p><input type="number" pattern="[0-9]" novalidate name="Sulyvahn"><span>tries</span>
+						</li>
+						<li>
+							<p>Yhorm the Giant:</p><input type="number" pattern="[0-9]" novalidate name="Giant"><span>tries</span>
+						</li>
+						<li>
+							<p>Aldrich, Devourer of Gods:</p><input type="number" pattern="[0-9]" novalidate name="Aldrich"><span>tries</span>
+						</li>
+						<li>
+							<p>Dancer of the Boreal Valley:</p><input type="number" pattern="[0-9]" novalidate name="Dancer"><span>tries</span>
+						</li>
+						<li>
+							<p>Dragonslayer Armour:</p><input type="number" pattern="[0-9]" novalidate name="Dragonslayer_Armour"><span>tries</span>
+						</li>
+						<li>
+							<p>Oceiros, the Consumed King:</p><input type="number" pattern="[0-9]" novalidate name="Oceiros"><span>tries</span>
+						</li>
+						<li>
+							<p>Champion Gundyr:</p><input type="number" pattern="[0-9]" novalidate name="Champion_Gundyr"><span>tries</span>
+						</li>
+						<li>
+							<p>Lothric, Younger Prince:</p><input type="number" pattern="[0-9]" novalidate name="Lothric"><span>tries</span>
+						</li>
+						<li>
+							<p>Ancient Wyvern:</p><input type="number" pattern="[0-9]" novalidate name="Wyvern"><span>tries</span>
+						</li>
+						<li>
+							<p>Nameless King:</p><input type="number" pattern="[0-9]" novalidate name="Nameless_King"><span>tries</span>
+						</li>
+						<li>
+							<p>Soul of Cinder:</p><input type="number" pattern="[0-9]" novalidate name="Soul_of_Cinder"><span>tries</span>
+						</li>					
+					</ul>
+				</form>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+   <!-- Swiper JS -->
+    <script src="js/swiper.js"></script>
+	<script src="js/snailsloth.js"></script>
+
+
+</body>
+</html>
